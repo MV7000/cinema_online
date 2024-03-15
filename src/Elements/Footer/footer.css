@@ -1,0 +1,18 @@
+.footerWrapper {
+  background-color: #000000;
+  width: 100%;
+  min-height: 20vh;
+  color: whitesmoke;
+}
+.footerWrapper div {
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 7vh 0 0 6vh;
+}
+.footerWrapper p {
+  padding: 0 7vh 0 7vh;
+}

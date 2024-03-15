@@ -1,0 +1,52 @@
+#search {
+  padding-left: 2rem;
+  background-image: url("../../Images/Vector (1).png");
+  background-position: right 5% bottom 50%;
+  background-repeat: no-repeat;
+  background-color: #c4c4c44d;
+  width: calc(var(--index) * 23);
+  height: calc(var(--index) * 2.8);
+  border-radius: 8px;
+  border: none;
+  font-size: calc((var(--index) * 1.2));
+  color: whitesmoke;
+}
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cancel {
+  padding-right: 3rem;
+  opacity: 0.3;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1500px) {
+  #search {
+    width: calc(var(--index) * 18);
+    height: calc(var(--index) * 2);
+  }
+}
+@media (max-width: 900px) {
+  #search {
+    width: calc(var(--index) * 18);
+    height: calc(var(--index) * 1.97);
+  }
+}
+@media (max-width: 700px) {
+  #search {
+    width: calc(var(--index) * 18);
+    height: calc(var(--index) * 2);
+  }
+}
+@media (max-width: 500px) {
+  #search {
+    width: calc(var(--index) * 12);
+    height: calc(var(--index) * 1.7);
+    background-size: calc(var(--index));
+  }
+}

@@ -1,0 +1,147 @@
+.wrapper {
+  background-color: black;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.backgrWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.back_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.film-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: #ededed;
+  background: transparent;
+}
+.film_poster {
+  z-index: 1;
+  margin-left: 1.5rem;
+}
+
+.film_poster_img {
+  width: calc(var(--index) * 13);
+  height: calc(var(--index) * 18);
+  box-shadow: 1px 1px 7px purple, 2px 2px 10px rgb(172, 2, 172),
+    3px 3px 20px rgb(231, 3, 231);
+  margin-left: 1.4rem;
+}
+
+.film_name {
+  font-size: calc(var(--index) * 1.1);
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: calc(var(--index) * 1.1);
+}
+.rating > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating_star {
+  width: clamp(3rem, 2.78vw, 4rem);
+}
+.name {
+  width: 60vw;
+  position: relative;
+  border-radius: 15px;
+  margin-left: 1.4rem;
+  margin-right: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.392);
+}
+
+.film_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: calc(var(--index) * 0.7);
+}
+.btnWrappers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  margin: 3vh 2rem;
+  flex-wrap: wrap;
+}
+.tikket {
+  background-color: bisque;
+}
+.btn_seans {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.712);
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px purple;
+  z-index: 20;
+  margin: 10vh auto 0;
+}
+.btn_seans_title {
+  color: white;
+  font-size: calc(var(--index));
+}
+.btn_radio {
+  margin-right: 0.3rem;
+  width: calc(var(--index) * 8);
+  font-size: calc(var(--index) * 0.8);
+
+  &&:hover {
+    background-color: var(--bs-btn-active-bg);
+    color: white;
+  }
+}
+.btn_seans_text {
+  font-size: calc(var(--index));
+}
+@media (max-width: 1100px) {
+  .btn_seans_text {
+    font-size: calc(var(--index) * 0.8);
+    margin-left: 0;
+  }
+  .btnWrappers {
+    display: block;
+  }
+  .film_poster img {
+    width: calc(var(--index) * 10);
+    height: calc(var(--index) * 15);
+  }
+}
+@media (max-width: 900px) {
+  .btn_radio {
+    width: calc(var(--index) * 8);
+    font-size: calc(var(--index) * 0.7);
+  }
+  .btn_seans_text {
+    padding: calc(var(--index) * 0.4) calc(var(--index) * 0.8);
+  }
+  .btn-group {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  .name {
+    width: calc(var(--index) * 10);
+  }
+}

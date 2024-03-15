@@ -1,0 +1,44 @@
+.box__holl-screen {
+  margin: 3rem 0rem;
+}
+.box__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0rem;
+}
+.info__list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  font-size: clamp(1.5rem, 2.08vw, 3rem);
+  font-weight: 400;
+  line-height: 2.3rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.info__list li::before {
+  content: "•"; /* Додатковий вміст перед кожним елементом */
+  margin-right: 5px;
+  font-size: clamp(3rem, 3.47vw, 5rem);
+}
+.info__list li:first-child::before {
+  color: white;
+}
+.info__list li:last-child::before {
+  color: #09fbd3;
+}
+.info__list li::before {
+  color: #b6116b;
+}
+.info__list-item {
+  display: flex;
+  align-items: center;
+}

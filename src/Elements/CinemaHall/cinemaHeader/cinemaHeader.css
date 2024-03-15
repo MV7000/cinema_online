@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  padding: 2rem 0rem;
+}
+.header__container {
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.close,
+.calendar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  width: clamp(4rem, 4.86vw, 7rem);
+  height: clamp(4rem, 4.86vw, 7rem);
+  border-radius: 50%;
+  border-color: transparent;
+  border-top: 2px solid #68fccb;
+  border-left: 1px solid #68fccb;
+  background-color: rgba(45 19 110 30%);
+  box-sizing: border-box;
+  transition: scale 0.9s ease;
+  cursor: pointer;
+}
+.calendar {
+  background-color: rgba(20 11 45 30%);
+}
+.close:hover,
+.calendar:hover {
+  transform: scale(1.04);
+}
+.header__title {
+  font-family: Poppins;
+  font-size: clamp(2rem, 2.78vw, 4rem);
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.calendar img {
+  width: 80%;
+}

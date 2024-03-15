@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Elements on Main Page Project snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="navBarWrapper"
+      >
+        <a
+          class="headerEmblem"
+          href="/"
+        >
+          Vilm
+        </a>
+        <form
+          action="search"
+          class="searchWrapper"
+        >
+          <input
+            id="search"
+            name="search"
+            type="search"
+            value=""
+          />
+        </form>
+      </div>
+      <div
+        class="carousel slide"
+      >
+        <div
+          class="carousel-indicators"
+        />
+        <div
+          class="carousel-inner"
+        />
+        <a
+          class="carousel-control-prev"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-prev-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            aria-hidden="true"
+            class="carousel-control-next-icon"
+          />
+          <span
+            class="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+      <div
+        class="movies_stars_container"
+      >
+        <div
+          class="movies"
+        >
+          <div
+            class="film_title"
+          >
+            Trending Movies
+          </div>
+          <div
+            class="mov"
+          />
+        </div>
+        <h2
+          class="stars_title"
+        >
+          Trending Stars
+        </h2>
+        <div
+          class="imgWrapper"
+        />
+      </div>
+      <div
+        class="footerWrapper"
+      >
+        <div>
+          Vilm © 2021
+        </div>
+        <p>
+          powered by tmdb
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="navBarWrapper"
+    >
+      <a
+        class="headerEmblem"
+        href="/"
+      >
+        Vilm
+      </a>
+      <form
+        action="search"
+        class="searchWrapper"
+      >
+        <input
+          id="search"
+          name="search"
+          type="search"
+          value=""
+        />
+      </form>
+    </div>
+    <div
+      class="carousel slide"
+    >
+      <div
+        class="carousel-indicators"
+      />
+      <div
+        class="carousel-inner"
+      />
+      <a
+        class="carousel-control-prev"
+        href="#"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="carousel-control-prev-icon"
+        />
+        <span
+          class="visually-hidden"
+        >
+          Previous
+        </span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          aria-hidden="true"
+          class="carousel-control-next-icon"
+        />
+        <span
+          class="visually-hidden"
+        >
+          Next
+        </span>
+      </a>
+    </div>
+    <div
+      class="movies_stars_container"
+    >
+      <div
+        class="movies"
+      >
+        <div
+          class="film_title"
+        >
+          Trending Movies
+        </div>
+        <div
+          class="mov"
+        />
+      </div>
+      <h2
+        class="stars_title"
+      >
+        Trending Stars
+      </h2>
+      <div
+        class="imgWrapper"
+      />
+    </div>
+    <div
+      class="footerWrapper"
+    >
+      <div>
+        Vilm © 2021
+      </div>
+      <p>
+        powered by tmdb
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

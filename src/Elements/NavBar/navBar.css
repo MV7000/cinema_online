@@ -1,0 +1,25 @@
+.navBarWrapper {
+  background-color: #1a1f38;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-height: 40px;
+  z-index: 100;
+}
+
+.headerEmblem {
+  font-family: Inter;
+  font-size: calc(var(--index) * 2.8);
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .headerEmblem {
+    font-size: calc(var(--index) * 1.5);
+  }
+}

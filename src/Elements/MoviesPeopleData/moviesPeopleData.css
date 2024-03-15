@@ -1,0 +1,42 @@
+.movies_stars_container {
+  background-color: #000000;
+  margin: 0 auto;
+}
+.imgWrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1.7vw;
+}
+.imgWrapper img {
+  margin: 1vw 0 0 0;
+  cursor: pointer;
+  width: calc(var(--index) * 13);
+  height: calc(var(--index) * 19);
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333131bd, 0 0 10px #333131c2, 0 0 30px #464444c5;
+}
+
+.filmCard p {
+  max-width: 170px;
+  font-size: 0.9rem;
+  color: whitesmoke;
+  line-height: 1.8vh;
+  margin: 0;
+  padding: 0;
+}
+
+.mymodal {
+  background-color: #d6d0d0;
+}
+.modal_name {
+  font-size: calc(var(--index)*1.2);
+  font-weight: 900;
+  text-shadow: 3px 3px 3px grey;
+}
+.modal_text {
+  font-size: calc(var(--index));
+  text-shadow: 3px 3px 3px grey;
+}

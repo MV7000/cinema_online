@@ -1,0 +1,12 @@
+.sinemaScreen__container {
+   min-height: 100px;
+}
+.cinemaScreen {
+   margin: 0 auto;
+   width: 100%;
+   height: 100px;
+   border: 12px solid #ff53c0;
+   filter: drop-shadow(0px 5px 20px rgb(255 83 192));
+   border-color: #ff53c0 transparent transparent transparent;
+   border-radius: 150%/100% 100% 200%;
+}
